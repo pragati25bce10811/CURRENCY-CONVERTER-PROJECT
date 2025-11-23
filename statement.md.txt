@@ -1,0 +1,41 @@
+                              CURRENCY CONVERTER
+
+PROBLEM STATEMENT:
+Currency conversion is an essential task for travellers , businesses and financial
+analysts to compare values across different currencies. Manual conversions using 
+calculator or lookup tables can be time-consuming and error-prone. This project 
+aims to provide a simple,automated tool for converting amounts between major 
+currencies with minimal user input.
+
+
+SCOPE OF THE PROJECT:
+1. Supports conversion among eight widely-used currencies : INR,USD,GBP,
+   EUR,JPY,CHF,CAD and AUD.
+2. Handles direct currency pair conversions based on predefined static exchange 
+   rates.
+3. Validates user input to ensure supported currencies and positive numerical
+   amounts.
+4. Runs as a command-line interactive application without requiring internet or
+   external dependencies.
+5. Does not cover real-time exchange rate updates or multi-step conversion chains.
+
+
+TARGET USERS :
+1. Beginner programmers learning Python and currency conversion logic.
+2. Individuals needing quick offline currency conversions between supported 
+   currencies.
+3. Educational use for understanding basic conditional statements and dictionary 
+   usage in Python.
+
+
+HIGH LEVEL FEATURES:
+1. User prompts for source currency,target currency and amount.
+2. Input validation with user-friendly error messages for unsupported currencies 
+   or invalid amounts.
+3. Conversion logic using hardcoded exchange rates stored in a Python dictionary.
+4. Result output with formatted conversion amount for clarity.
+5. Graceful handling of unsupported conversion pairs with appropriate messages. 
+
+
+
+ 
