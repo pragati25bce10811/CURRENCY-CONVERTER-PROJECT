@@ -59,6 +59,9 @@ def convert_currency(amount, from_currency, to_currency):
         'AUD_to_CAD': 0.92,
         'AUD_to_GBP': 0.50,
         'KWD_to_INR': 291.0,
+        'KWD_to_USD': 3.26,
+        'KWD_to_GBP': 2.46,
+        
      }
     # If source and target currencies are the same, return amount unchanged.
     if from_currency == to_currency:
