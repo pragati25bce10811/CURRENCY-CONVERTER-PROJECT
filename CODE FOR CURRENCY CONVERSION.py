@@ -73,6 +73,7 @@ def convert_currency(amount, from_currency, to_currency):
         'JPY_to_KWD': 0.0020,
         'CHF_to_KWD': 0.381,
         'CAD_to_KWD': 0.221,
+        'AUD_to_KWD': 0.204
      }
     # If source and target currencies are the same, return amount unchanged.
     if from_currency == to_currency:
