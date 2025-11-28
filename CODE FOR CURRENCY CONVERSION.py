@@ -1,3 +1,4 @@
+import streamlit as st
 def convert_currency(amount, from_currency, to_currency):
     # Dictionary storing exchange rates as conversion factors from one currency to another. 
     # Rates are approximate and manually entered for this example.
