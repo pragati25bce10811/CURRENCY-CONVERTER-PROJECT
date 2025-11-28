@@ -68,6 +68,8 @@ def convert_currency(amount, from_currency, to_currency):
         'KWD_to_AUD': 5.04,
         'INR_to_KWD': 0.0034,
         'USD_to_KWD': 0.307,
+        'GBP_to_KWD': 0.402,
+        'EUR_to_KWD': 0.355,
         
      }
     # If source and target currencies are the same, return amount unchanged.
