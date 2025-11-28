@@ -88,14 +88,14 @@ def convert_currency(amount, from_currency, to_currency):
         return None
 def main():
     # Set of accepted currencies to validate user input against
-    supported_currencies = {'INR','USD','GBP','EUR','JPY','CHF','CAD','AUD'}
+    supported_currencies = {'INR','USD','GBP','EUR','JPY','CHF','CAD','AUD','KWD'}
     # Prompt user for input currency and validate
-    from_currency = input('Enter the currency you have (INR/USD/GBP/EUR/JPY/CHF/CAD/AUD): ').strip().upper()
+    from_currency = input('Enter the currency you have (INR/USD/GBP/EUR/JPY/CHF/CAD/AUD/KWD): ').strip().upper()
     if from_currency not in supported_currencies:
         print (f'Error: Unsupported or invalid input currency "{from_currency}".')
         return
     # Prompt user for output currency and validate
-    to_currency = input('Enter the currency to convert to (INR/USD/GBP/EUR/JPY/CHF/CAD/AUD): ').strip().upper()
+    to_currency = input('Enter the currency to convert to (INR/USD/GBP/EUR/JPY/CHF/CAD/AUD/KWD): ').strip().upper()
     if to_currency not in supported_currencies:
         print (f'Error: Unsupported or invalid input currency "{to_currency}".')
         return
